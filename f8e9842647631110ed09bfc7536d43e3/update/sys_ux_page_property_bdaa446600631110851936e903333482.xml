@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="Safety Portal">b5aa44669e6311107cf80d4b45567a80</page>
+        <required_translations>[]</required_translations>
+        <route display_value="Login">39aa4466bd631110b23955eae176d18c</route>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-12-06 10:45:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>bdaa446600631110851936e903333482</sys_id>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Safety" source="x_619426_safety">f8e9842647631110ed09bfc7536d43e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">f8e9842647631110ed09bfc7536d43e3</sys_scope>
+        <sys_update_name>sys_ux_page_property_bdaa446600631110851936e903333482</sys_update_name>
+        <type>json</type>
+        <unique_name>x_619426_safety.b5aa44669e6311107cf80d4b45567a80.route.chrome_header.39aa4466bd631110b23955eae176d18c</unique_name>
+        <value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false,&#13;
+       "userPrefsEnabled": false,&#13;
+       "menuEnabled": false&#13;
+    },&#13;
+    "publicPage":{&#13;
+       "searchEnabled": false,&#13;
+       "userPrefsEnabled": false,&#13;
+       "menuEnabled": false&#13;
+    }&#13;
+ }</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=bdaa446600631110851936e903333482"/>
+</record_update>

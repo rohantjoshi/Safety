@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>actionConfigId</name>
+        <page display_value="Safety WS">c47c9c663ca31110964f4cd41268c498</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-06 12:03:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>8c7c9c662ea31110cc7b67c176b19d9a</sys_id>
+        <sys_name>actionConfigId</sys_name>
+        <sys_package display_value="Safety" source="x_619426_safety">f8e9842647631110ed09bfc7536d43e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">f8e9842647631110ed09bfc7536d43e3</sys_scope>
+        <sys_update_name>sys_ux_page_property_8c7c9c662ea31110cc7b67c176b19d9a</sys_update_name>
+        <type>string</type>
+        <unique_name>x_619426_safety.c47c9c663ca31110964f4cd41268c498.root.actionConfigId</unique_name>
+        <value>df28e3db0f1210107d20409dc4767ee0</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=8c7c9c662ea31110cc7b67c176b19d9a"/>
+</record_update>

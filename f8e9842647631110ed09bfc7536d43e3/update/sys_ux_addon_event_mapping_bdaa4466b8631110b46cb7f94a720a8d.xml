@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
+    <sys_ux_addon_event_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <controller/>
+        <description/>
+        <name>Reject Mapping</name>
+        <parent_macroponent display_value="Landing Page">79aa4466fb63111010782c3f81ba0e8e</parent_macroponent>
+        <source_component/>
+        <source_da display_value="reject">7daa4466f56311104bd98a0ee8f1b792</source_da>
+        <source_element_id>data_row_1</source_element_id>
+        <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-12-06 10:45:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bdaa4466b8631110b46cb7f94a720a8d</sys_id>
+        <sys_name>Reject Mapping</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Safety" source="x_619426_safety">f8e9842647631110ed09bfc7536d43e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">f8e9842647631110ed09bfc7536d43e3</sys_scope>
+        <sys_update_name>sys_ux_addon_event_mapping_bdaa4466b8631110b46cb7f94a720a8d</sys_update_name>
+        <target_event display_value="My tasks reject">b5aa4466e2631110059c9e5589421f8d</target_event>
+        <target_payload_mapping>{
+  "type": "MAP_CONTAINER",
+  "container": {
+    "sysId": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "sysId"
+        ]
+      }
+    },
+    "table": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "table"
+        ]
+      }
+    }
+  }
+}</target_payload_mapping>
+    </sys_ux_addon_event_mapping>
+</record_update>

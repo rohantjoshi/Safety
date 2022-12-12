@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Order success">f1aa446666631110de1020cc94a6a08a</macroponent>
+        <name>Home redirection</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, helpers, imports}) {
+    const route = "landing";
+    api.emit('NAV_ITEM_SELECTED', {
+        route,
+        params: {
+            refresh: Date.now()
+        },
+        fields: {}
+    });
+}
+]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-12-06 10:45:24</sys_created_on>
+        <sys_id>35aa44666d631110b27bbe6552779e88</sys_id>
+        <sys_name>Home redirection</sys_name>
+        <sys_package display_value="Safety" source="x_619426_safety">f8e9842647631110ed09bfc7536d43e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">f8e9842647631110ed09bfc7536d43e3</sys_scope>
+        <sys_update_name>sys_ux_client_script_35aa44666d631110b27bbe6552779e88</sys_update_name>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

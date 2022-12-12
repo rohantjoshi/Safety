@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>Workspace-Safety-WS-0</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-06 12:03:03</sys_created_on>
+        <sys_id>ff6c9c66c0a311108e83b70a23f58a95</sys_id>
+        <sys_name>Workspace Safety WS 0</sys_name>
+        <sys_package display_value="Safety" source="x_619426_safety">f8e9842647631110ed09bfc7536d43e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">f8e9842647631110ed09bfc7536d43e3</sys_scope>
+        <sys_update_name>sys_ui_view_ff6c9c66c0a311108e83b70a23f58a95</sys_update_name>
+        <title>Workspace Safety WS 0</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

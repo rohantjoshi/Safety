@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="Safety Landing Page ITIL">147e012647671110ed09bfc7536d4351</macroponent>
+        <name>dropdown_1/items</name>
+        <preset/>
+        <required_translations/>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {TransformApiHelpers} params.helpers
+ */
+function evaluateProperty({api,helpers}) {
+    var jsonObj = api.data.aggregation_query_1.output;
+    var numOfLoc = jsonObj.data.GlideAggregate_Query.length;
+    var jsonVar = "[";
+    for (var i = 0; i < numOfLoc; i++) {
+        jsonVar = jsonVar + '{"id":"' +
+            jsonObj.data.GlideAggregate_Query[i].groupBy[0].value + '","label":"' +
+            jsonObj.data.GlideAggregate_Query[i].groupBy[0].displayValue + '"}';
+        if (i < (numOfLoc - 1)) {
+            jsonVar = jsonVar + ",";
+        }
+    }
+    jsonVar = jsonVar + ']'; 
+     console.log(jsonVar);
+    return jsonVar;
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-06 18:18:51</sys_created_on>
+        <sys_id>19727d2647e71110ed09bfc7536d434a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dropdown_1/items</sys_name>
+        <sys_package display_value="Safety" source="x_619426_safety">f8e9842647631110ed09bfc7536d43e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">f8e9842647631110ed09bfc7536d43e3</sys_scope>
+        <sys_update_name>sys_ux_client_script_19727d2647e71110ed09bfc7536d434a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-06 18:18:51</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Safety">f8e9842647631110ed09bfc7536d43e3</application>
+        <file_path/>
+        <instance_id>35404d84dbcfb74452dd2f17d49619f1</instance_id>
+        <instance_name>dev89766</instance_name>
+        <name>sys_ux_client_script_19727d2647e71110ed09bfc7536d434a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="Safety Landing Page ITIL"&gt;147e012647671110ed09bfc7536d4351&lt;/macroponent&gt;&lt;name&gt;dropdown_1/items&lt;/name&gt;&lt;preset/&gt;&lt;required_translations/&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {TransformApiHelpers} params.helpers
+ */
+function evaluateProperty({api,helpers}) {
+    var jsonObj = api.data.aggregation_query_1.output;
+    var numOfLoc = jsonObj.data.GlideAggregate_Query.length;
+    var jsonVar = "[";
+    for (var i = 0; i &lt; numOfLoc; i++) {
+        jsonVar = jsonVar + '{"id":"' +
+            jsonObj.data.GlideAggregate_Query[i].groupBy[0].value + '","label":"' +
+            jsonObj.data.GlideAggregate_Query[i].groupBy[0].displayValue + '"}';
+        if (i &lt; (numOfLoc - 1)) {
+            jsonVar = jsonVar + ",";
+        }
+    }
+    jsonVar = jsonVar + ']'; 
+     console.log(jsonVar);
+    return jsonVar;
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-12-06 18:18:51&lt;/sys_created_on&gt;&lt;sys_id&gt;19727d2647e71110ed09bfc7536d434a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;dropdown_1/items&lt;/sys_name&gt;&lt;sys_package display_value="Safety" source="x_619426_safety"&gt;f8e9842647631110ed09bfc7536d43e3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Safety"&gt;f8e9842647631110ed09bfc7536d43e3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_19727d2647e71110ed09bfc7536d434a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-12-06 18:18:51&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>96296719</payload_hash>
+        <record_name>dropdown_1/items</record_name>
+        <reverted_from/>
+        <source>38e9842647631110ed09bfc7536d43e5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-06 18:18:51</sys_created_on>
+        <sys_id>11727d2647e71110ed09bfc7536d434d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184e8a97aa40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-06 18:18:51</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>99727d2681e71110429cbdc5d925724c</update_guid>
+        <update_guid_history>99727d2681e71110429cbdc5d925724c:96296719</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-06 18:23:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>566ff9a9bbde41ee989c6e16e58d7e69</sys_id>
+        <sys_metadata>19727d2647e71110ed09bfc7536d434a</sys_metadata>
+        <sys_name>dropdown_1/items</sys_name>
+        <sys_package display_value="Safety" source="x_619426_safety">f8e9842647631110ed09bfc7536d43e3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Safety">f8e9842647631110ed09bfc7536d43e3</sys_scope>
+        <sys_scope_delete display_value="">1f142a1c50b84152a6d430d6ba1340c4</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_19727d2647e71110ed09bfc7536d434a</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_19727d2647e71110ed09bfc7536d434a">11727d2647e71110ed09bfc7536d434d</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

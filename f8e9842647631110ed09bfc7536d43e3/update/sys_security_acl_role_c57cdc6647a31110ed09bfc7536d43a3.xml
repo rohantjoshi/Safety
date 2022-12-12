@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-06 12:03:06</sys_created_on>
+        <sys_id>c57cdc6647a31110ed09bfc7536d43a3</sys_id>
+        <sys_name>x.619426.safety-ws.*.x_619426_safety.user</sys_name>
+        <sys_package display_value="Safety" source="x_619426_safety">f8e9842647631110ed09bfc7536d43e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">f8e9842647631110ed09bfc7536d43e3</sys_scope>
+        <sys_security_acl display_value="x.619426.safety-ws.*">847c9c6632a31110a9e9ca78c4513f9b</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_c57cdc6647a31110ed09bfc7536d43a3</sys_update_name>
+        <sys_user_role display_value="x_619426_safety.user" name="x_619426_safety.user">fce9c42647631110ed09bfc7536d4306</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_datasource_field_attribute">
+    <ais_datasource_field_attribute action="INSERT_OR_UPDATE">
+        <attribute display_value="map_to">f734a634c7320010d1cfd9795cc26094</attribute>
+        <datasource display_value="Task Table">4d7cdc6647a31110ed09bfc7536d43c4</datasource>
+        <field>number</field>
+        <source>task</source>
+        <sys_class_name>ais_datasource_field_attribute</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-06 12:03:07</sys_created_on>
+        <sys_id>517c10a647a31110ed09bfc7536d431a</sys_id>
+        <sys_name>task.number</sys_name>
+        <sys_package display_value="Safety" source="x_619426_safety">f8e9842647631110ed09bfc7536d43e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">f8e9842647631110ed09bfc7536d43e3</sys_scope>
+        <sys_update_name>ais_datasource_field_attribute_517c10a647a31110ed09bfc7536d431a</sys_update_name>
+        <value>title</value>
+    </ais_datasource_field_attribute>
+</record_update>

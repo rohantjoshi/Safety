@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>sys_ux_applicability sys_id for Workspace audience</description>
+        <name>wbApplicabilityConfigId</name>
+        <page display_value="Safety WS">c47c9c663ca31110964f4cd41268c498</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-06 12:03:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>047c9c66e1a311100ec332297aa1ca9c</sys_id>
+        <sys_name>wbApplicabilityConfigId</sys_name>
+        <sys_package display_value="Safety" source="x_619426_safety">f8e9842647631110ed09bfc7536d43e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">f8e9842647631110ed09bfc7536d43e3</sys_scope>
+        <sys_update_name>sys_ux_page_property_047c9c66e1a311100ec332297aa1ca9c</sys_update_name>
+        <type>string</type>
+        <unique_name>x_619426_safety.c47c9c663ca31110964f4cd41268c498.root.wbApplicabilityConfigId</unique_name>
+        <value>707cdc6647a31110ed09bfc7536d435e</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=047c9c66e1a311100ec332297aa1ca9c"/>
+</record_update>

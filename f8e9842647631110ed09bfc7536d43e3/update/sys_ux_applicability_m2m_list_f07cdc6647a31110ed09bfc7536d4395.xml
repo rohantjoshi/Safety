@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list">
+    <sys_ux_applicability_m2m_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Audience for app safety-ws">707cdc6647a31110ed09bfc7536d435e</applicability>
+        <list display_value="Closed">747cdc6647a31110ed09bfc7536d4393</list>
+        <order>100</order>
+        <sys_class_name>sys_ux_applicability_m2m_list</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-06 12:03:06</sys_created_on>
+        <sys_id>f07cdc6647a31110ed09bfc7536d4395</sys_id>
+        <sys_name/>
+        <sys_package display_value="Safety" source="x_619426_safety">f8e9842647631110ed09bfc7536d43e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">f8e9842647631110ed09bfc7536d43e3</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_list_f07cdc6647a31110ed09bfc7536d4395</sys_update_name>
+    </sys_ux_applicability_m2m_list>
+</record_update>

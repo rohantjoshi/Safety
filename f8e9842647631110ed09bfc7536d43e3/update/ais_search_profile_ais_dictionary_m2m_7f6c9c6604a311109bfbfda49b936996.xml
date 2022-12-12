@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary display_value="default_synonym_dictionary">b29df374c7531010d1cfd9795cc260cd</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="Safety WS search profile">376c9c6605a311109a406830f06c4a97</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-06 12:03:03</sys_created_on>
+        <sys_id>7f6c9c6604a311109bfbfda49b936996</sys_id>
+        <sys_name>default_synonym_dictionary.Safety WS search profile</sys_name>
+        <sys_package display_value="Safety" source="x_619426_safety">f8e9842647631110ed09bfc7536d43e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">f8e9842647631110ed09bfc7536d43e3</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_7f6c9c6604a311109bfbfda49b936996</sys_update_name>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>
